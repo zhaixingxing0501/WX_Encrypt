@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C8ECA2D23876CE6006F76FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8ECA2C23876CE6006F76FD /* AppDelegate.m */; };
+		9C8ECA3023876CE6006F76FD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8ECA2F23876CE6006F76FD /* SceneDelegate.m */; };
+		9C8ECA3323876CE6006F76FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8ECA3223876CE6006F76FD /* ViewController.m */; };
+		9C8ECA3623876CE6006F76FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8ECA3423876CE6006F76FD /* Main.storyboard */; };
+		9C8ECA3823876CEA006F76FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8ECA3723876CEA006F76FD /* Assets.xcassets */; };
+		9C8ECA3B23876CEA006F76FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8ECA3923876CEA006F76FD /* LaunchScreen.storyboard */; };
+		9C8ECA3E23876CEA006F76FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8ECA3D23876CEA006F76FD /* main.m */; };
+		9C8ECA4823876CEA006F76FD /* WX_EncryptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8ECA4723876CEA006F76FD /* WX_EncryptTests.m */; };
+		9C8ECA5323876CEA006F76FD /* WX_EncryptUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8ECA5223876CEA006F76FD /* WX_EncryptUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C8ECA4423876CEA006F76FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C8ECA2023876CE6006F76FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C8ECA2723876CE6006F76FD;
+			remoteInfo = WX_Encrypt;
+		};
+		9C8ECA4F23876CEA006F76FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C8ECA2023876CE6006F76FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C8ECA2723876CE6006F76FD;
+			remoteInfo = WX_Encrypt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C8ECA2823876CE6006F76FD /* WX_Encrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WX_Encrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8ECA2B23876CE6006F76FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C8ECA2C23876CE6006F76FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C8ECA2E23876CE6006F76FD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9C8ECA2F23876CE6006F76FD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		9C8ECA3123876CE6006F76FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C8ECA3223876CE6006F76FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C8ECA3523876CE6006F76FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C8ECA3723876CEA006F76FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C8ECA3A23876CEA006F76FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C8ECA3C23876CEA006F76FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8ECA3D23876CEA006F76FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C8ECA4323876CEA006F76FD /* WX_EncryptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WX_EncryptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8ECA4723876CEA006F76FD /* WX_EncryptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WX_EncryptTests.m; sourceTree = "<group>"; };
+		9C8ECA4923876CEA006F76FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8ECA4E23876CEA006F76FD /* WX_EncryptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WX_EncryptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8ECA5223876CEA006F76FD /* WX_EncryptUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WX_EncryptUITests.m; sourceTree = "<group>"; };
+		9C8ECA5423876CEA006F76FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C8ECA2523876CE6006F76FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8ECA4023876CEA006F76FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8ECA4B23876CEA006F76FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C8ECA1F23876CE6006F76FD = {
+			isa = PBXGroup;
+			children = (
+				9C8ECA2A23876CE6006F76FD /* WX_Encrypt */,
+				9C8ECA4623876CEA006F76FD /* WX_EncryptTests */,
+				9C8ECA5123876CEA006F76FD /* WX_EncryptUITests */,
+				9C8ECA2923876CE6006F76FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C8ECA2923876CE6006F76FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C8ECA2823876CE6006F76FD /* WX_Encrypt.app */,
+				9C8ECA4323876CEA006F76FD /* WX_EncryptTests.xctest */,
+				9C8ECA4E23876CEA006F76FD /* WX_EncryptUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C8ECA2A23876CE6006F76FD /* WX_Encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				9C8ECA2B23876CE6006F76FD /* AppDelegate.h */,
+				9C8ECA2C23876CE6006F76FD /* AppDelegate.m */,
+				9C8ECA2E23876CE6006F76FD /* SceneDelegate.h */,
+				9C8ECA2F23876CE6006F76FD /* SceneDelegate.m */,
+				9C8ECA3123876CE6006F76FD /* ViewController.h */,
+				9C8ECA3223876CE6006F76FD /* ViewController.m */,
+				9C8ECA3423876CE6006F76FD /* Main.storyboard */,
+				9C8ECA3723876CEA006F76FD /* Assets.xcassets */,
+				9C8ECA3923876CEA006F76FD /* LaunchScreen.storyboard */,
+				9C8ECA3C23876CEA006F76FD /* Info.plist */,
+				9C8ECA3D23876CEA006F76FD /* main.m */,
+			);
+			path = WX_Encrypt;
+			sourceTree = "<group>";
+		};
+		9C8ECA4623876CEA006F76FD /* WX_EncryptTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C8ECA4723876CEA006F76FD /* WX_EncryptTests.m */,
+				9C8ECA4923876CEA006F76FD /* Info.plist */,
+			);
+			path = WX_EncryptTests;
+			sourceTree = "<group>";
+		};
+		9C8ECA5123876CEA006F76FD /* WX_EncryptUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C8ECA5223876CEA006F76FD /* WX_EncryptUITests.m */,
+				9C8ECA5423876CEA006F76FD /* Info.plist */,
+			);
+			path = WX_EncryptUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C8ECA2723876CE6006F76FD /* WX_Encrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8ECA5723876CEA006F76FD /* Build configuration list for PBXNativeTarget "WX_Encrypt" */;
+			buildPhases = (
+				9C8ECA2423876CE6006F76FD /* Sources */,
+				9C8ECA2523876CE6006F76FD /* Frameworks */,
+				9C8ECA2623876CE6006F76FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WX_Encrypt;
+			productName = WX_Encrypt;
+			productReference = 9C8ECA2823876CE6006F76FD /* WX_Encrypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C8ECA4223876CEA006F76FD /* WX_EncryptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8ECA5A23876CEA006F76FD /* Build configuration list for PBXNativeTarget "WX_EncryptTests" */;
+			buildPhases = (
+				9C8ECA3F23876CEA006F76FD /* Sources */,
+				9C8ECA4023876CEA006F76FD /* Frameworks */,
+				9C8ECA4123876CEA006F76FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C8ECA4523876CEA006F76FD /* PBXTargetDependency */,
+			);
+			name = WX_EncryptTests;
+			productName = WX_EncryptTests;
+			productReference = 9C8ECA4323876CEA006F76FD /* WX_EncryptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C8ECA4D23876CEA006F76FD /* WX_EncryptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8ECA5D23876CEA006F76FD /* Build configuration list for PBXNativeTarget "WX_EncryptUITests" */;
+			buildPhases = (
+				9C8ECA4A23876CEA006F76FD /* Sources */,
+				9C8ECA4B23876CEA006F76FD /* Frameworks */,
+				9C8ECA4C23876CEA006F76FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C8ECA5023876CEA006F76FD /* PBXTargetDependency */,
+			);
+			name = WX_EncryptUITests;
+			productName = WX_EncryptUITests;
+			productReference = 9C8ECA4E23876CEA006F76FD /* WX_EncryptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C8ECA2023876CE6006F76FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = nucarf;
+				TargetAttributes = {
+					9C8ECA2723876CE6006F76FD = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					9C8ECA4223876CEA006F76FD = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 9C8ECA2723876CE6006F76FD;
+					};
+					9C8ECA4D23876CEA006F76FD = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 9C8ECA2723876CE6006F76FD;
+					};
+				};
+			};
+			buildConfigurationList = 9C8ECA2323876CE6006F76FD /* Build configuration list for PBXProject "WX_Encrypt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C8ECA1F23876CE6006F76FD;
+			productRefGroup = 9C8ECA2923876CE6006F76FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C8ECA2723876CE6006F76FD /* WX_Encrypt */,
+				9C8ECA4223876CEA006F76FD /* WX_EncryptTests */,
+				9C8ECA4D23876CEA006F76FD /* WX_EncryptUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C8ECA2623876CE6006F76FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8ECA3B23876CEA006F76FD /* LaunchScreen.storyboard in Resources */,
+				9C8ECA3823876CEA006F76FD /* Assets.xcassets in Resources */,
+				9C8ECA3623876CE6006F76FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8ECA4123876CEA006F76FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8ECA4C23876CEA006F76FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C8ECA2423876CE6006F76FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8ECA3323876CE6006F76FD /* ViewController.m in Sources */,
+				9C8ECA2D23876CE6006F76FD /* AppDelegate.m in Sources */,
+				9C8ECA3E23876CEA006F76FD /* main.m in Sources */,
+				9C8ECA3023876CE6006F76FD /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8ECA3F23876CEA006F76FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8ECA4823876CEA006F76FD /* WX_EncryptTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8ECA4A23876CEA006F76FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8ECA5323876CEA006F76FD /* WX_EncryptUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C8ECA4523876CEA006F76FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C8ECA2723876CE6006F76FD /* WX_Encrypt */;
+			targetProxy = 9C8ECA4423876CEA006F76FD /* PBXContainerItemProxy */;
+		};
+		9C8ECA5023876CEA006F76FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C8ECA2723876CE6006F76FD /* WX_Encrypt */;
+			targetProxy = 9C8ECA4F23876CEA006F76FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C8ECA3423876CE6006F76FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C8ECA3523876CE6006F76FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C8ECA3923876CEA006F76FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C8ECA3A23876CEA006F76FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C8ECA5523876CEA006F76FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C8ECA5623876CEA006F76FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C8ECA5823876CEA006F76FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WX_Encrypt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhaixingxing.WX-Encrypt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C8ECA5923876CEA006F76FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WX_Encrypt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhaixingxing.WX-Encrypt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C8ECA5B23876CEA006F76FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WX_EncryptTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhaixingxing.WX-EncryptTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WX_Encrypt.app/WX_Encrypt";
+			};
+			name = Debug;
+		};
+		9C8ECA5C23876CEA006F76FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WX_EncryptTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhaixingxing.WX-EncryptTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WX_Encrypt.app/WX_Encrypt";
+			};
+			name = Release;
+		};
+		9C8ECA5E23876CEA006F76FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WX_EncryptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhaixingxing.WX-EncryptUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WX_Encrypt;
+			};
+			name = Debug;
+		};
+		9C8ECA5F23876CEA006F76FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WX_EncryptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhaixingxing.WX-EncryptUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WX_Encrypt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C8ECA2323876CE6006F76FD /* Build configuration list for PBXProject "WX_Encrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8ECA5523876CEA006F76FD /* Debug */,
+				9C8ECA5623876CEA006F76FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8ECA5723876CEA006F76FD /* Build configuration list for PBXNativeTarget "WX_Encrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8ECA5823876CEA006F76FD /* Debug */,
+				9C8ECA5923876CEA006F76FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8ECA5A23876CEA006F76FD /* Build configuration list for PBXNativeTarget "WX_EncryptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8ECA5B23876CEA006F76FD /* Debug */,
+				9C8ECA5C23876CEA006F76FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8ECA5D23876CEA006F76FD /* Build configuration list for PBXNativeTarget "WX_EncryptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8ECA5E23876CEA006F76FD /* Debug */,
+				9C8ECA5F23876CEA006F76FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C8ECA2023876CE6006F76FD /* Project object */;
+}
