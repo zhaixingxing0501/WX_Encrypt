@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		9C8ECA2D23876CE6006F76FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8ECA2C23876CE6006F76FD /* AppDelegate.m */; };
 		9C8ECA3023876CE6006F76FD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8ECA2F23876CE6006F76FD /* SceneDelegate.m */; };
-		9C8ECA3323876CE6006F76FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8ECA3223876CE6006F76FD /* ViewController.m */; };
+		9C8ECA3323876CE6006F76FD /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C8ECA3223876CE6006F76FD /* ViewController.mm */; };
 		9C8ECA3623876CE6006F76FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8ECA3423876CE6006F76FD /* Main.storyboard */; };
 		9C8ECA3823876CEA006F76FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8ECA3723876CEA006F76FD /* Assets.xcassets */; };
 		9C8ECA3B23876CEA006F76FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8ECA3923876CEA006F76FD /* LaunchScreen.storyboard */; };
 		9C8ECA3E23876CEA006F76FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8ECA3D23876CEA006F76FD /* main.m */; };
 		9C8ECA4823876CEA006F76FD /* WX_EncryptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8ECA4723876CEA006F76FD /* WX_EncryptTests.m */; };
 		9C8ECA5323876CEA006F76FD /* WX_EncryptUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8ECA5223876CEA006F76FD /* WX_EncryptUITests.m */; };
+		9C8ECACD23878062006F76FD /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8ECACC23878062006F76FD /* NSData+AES.m */; };
+		9C8ECAD723878171006F76FD /* MD5Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8ECAD223878171006F76FD /* MD5Util.m */; };
+		9C8ECAD823878171006F76FD /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8ECAD623878171006F76FD /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9C8ECADB2387E5E5006F76FD /* WXMsgcrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8ECADA2387E5E5006F76FD /* WXMsgcrypt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +46,7 @@
 		9C8ECA2E23876CE6006F76FD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		9C8ECA2F23876CE6006F76FD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		9C8ECA3123876CE6006F76FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9C8ECA3223876CE6006F76FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C8ECA3223876CE6006F76FD /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		9C8ECA3523876CE6006F76FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C8ECA3723876CEA006F76FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C8ECA3A23876CEA006F76FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +58,15 @@
 		9C8ECA4E23876CEA006F76FD /* WX_EncryptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WX_EncryptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8ECA5223876CEA006F76FD /* WX_EncryptUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WX_EncryptUITests.m; sourceTree = "<group>"; };
 		9C8ECA5423876CEA006F76FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8ECACB23878062006F76FD /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		9C8ECACC23878062006F76FD /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		9C8ECAD223878171006F76FD /* MD5Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Util.m; sourceTree = "<group>"; };
+		9C8ECAD323878171006F76FD /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		9C8ECAD423878171006F76FD /* MD5Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Util.h; sourceTree = "<group>"; };
+		9C8ECAD523878171006F76FD /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		9C8ECAD623878171006F76FD /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		9C8ECAD92387E5E5006F76FD /* WXMsgcrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXMsgcrypt.h; sourceTree = "<group>"; };
+		9C8ECADA2387E5E5006F76FD /* WXMsgcrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXMsgcrypt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +117,17 @@
 		9C8ECA2A23876CE6006F76FD /* WX_Encrypt */ = {
 			isa = PBXGroup;
 			children = (
+				9C8ECAD123878171006F76FD /* GTMBase64 */,
 				9C8ECA2B23876CE6006F76FD /* AppDelegate.h */,
 				9C8ECA2C23876CE6006F76FD /* AppDelegate.m */,
 				9C8ECA2E23876CE6006F76FD /* SceneDelegate.h */,
 				9C8ECA2F23876CE6006F76FD /* SceneDelegate.m */,
+				9C8ECACB23878062006F76FD /* NSData+AES.h */,
+				9C8ECACC23878062006F76FD /* NSData+AES.m */,
+				9C8ECAD92387E5E5006F76FD /* WXMsgcrypt.h */,
+				9C8ECADA2387E5E5006F76FD /* WXMsgcrypt.m */,
 				9C8ECA3123876CE6006F76FD /* ViewController.h */,
-				9C8ECA3223876CE6006F76FD /* ViewController.m */,
+				9C8ECA3223876CE6006F76FD /* ViewController.mm */,
 				9C8ECA3423876CE6006F76FD /* Main.storyboard */,
 				9C8ECA3723876CEA006F76FD /* Assets.xcassets */,
 				9C8ECA3923876CEA006F76FD /* LaunchScreen.storyboard */,
@@ -135,6 +153,18 @@
 				9C8ECA5423876CEA006F76FD /* Info.plist */,
 			);
 			path = WX_EncryptUITests;
+			sourceTree = "<group>";
+		};
+		9C8ECAD123878171006F76FD /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				9C8ECAD223878171006F76FD /* MD5Util.m */,
+				9C8ECAD323878171006F76FD /* GTMBase64.h */,
+				9C8ECAD423878171006F76FD /* MD5Util.h */,
+				9C8ECAD523878171006F76FD /* GTMDefines.h */,
+				9C8ECAD623878171006F76FD /* GTMBase64.m */,
+			);
+			path = GTMBase64;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8ECA3323876CE6006F76FD /* ViewController.m in Sources */,
+				9C8ECACD23878062006F76FD /* NSData+AES.m in Sources */,
+				9C8ECADB2387E5E5006F76FD /* WXMsgcrypt.m in Sources */,
+				9C8ECA3323876CE6006F76FD /* ViewController.mm in Sources */,
 				9C8ECA2D23876CE6006F76FD /* AppDelegate.m in Sources */,
 				9C8ECA3E23876CEA006F76FD /* main.m in Sources */,
+				9C8ECAD723878171006F76FD /* MD5Util.m in Sources */,
+				9C8ECAD823878171006F76FD /* GTMBase64.m in Sources */,
 				9C8ECA3023876CE6006F76FD /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,7 +409,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/WX_Encrypt/openssl/include\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/WX_Encrypt/openssl/lib\"";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +463,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/WX_Encrypt/openssl/include\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/WX_Encrypt/openssl/lib\"";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -445,6 +483,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WX_Encrypt/openssl/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "zhaixingxing.WX-Encrypt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -460,6 +502,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WX_Encrypt/openssl/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "zhaixingxing.WX-Encrypt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
